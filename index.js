@@ -14,6 +14,9 @@ function getFunc(arr, ...value) {
 let newFunc = getFunc(animalsList);
 console.log(newFunc)*/
 
+
+
+
 /*let doll;
 
 function setName(name, surname) {
@@ -27,7 +30,7 @@ let dollSecond = setName('svitlana', 'sheva')
 
 console.log(dollFistr, dollSecond)*/
 
-function sum(value) {
+/*function sum(value) {
     let result = 0;
 
     for (let i = 0; i < value.length; i++) {
@@ -60,4 +63,35 @@ function mathOper(operationName, ...value) {
 let sumResult = mathOper(sum, 10, 20, 30) // створюємо змінну для тримання результату операції додавання
 let divResult = mathOper(div, 10, 20, 30) // ....віднімання
 
-console.log(sumResult, divResult)
+console.log(sumResult, divResult)*/
+
+
+//function printHello() {
+//    console.log('Hallo')
+//}
+
+/*const printHello = (name, surName) => {
+    let fullName = `${name} ${surName}`;
+    return `Hallo, ${name} ${surName}`
+};
+
+let AnnaFunction = printHello(`Svitlana`, `Pristajchuk`);
+console.log(AnnaFunction)*/
+
+/*const getName = (name) => `Hello, ${name}`;
+
+let vasjaHello = getName('Vasja')
+
+console.log(vasjaHello)*/
+
+
+let arr = [10, 20, 30];
+/* for (let i = 0; i < arr.length; i++) {
+    document.write(`<p>${arr[i]}</p>`)
+} */
+
+arr.forEach(function(el) {
+    // document.write(`<p>${arr[i]}</p>`)
+    //console.log(el, index, list)
+    document.write(`<li>${el}</li>`);
+})
